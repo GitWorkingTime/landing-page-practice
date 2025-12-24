@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+html {
+    font-family: "Roboto", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+button {
+    all: unset;
+}
+
+.header {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    align-items: center;
+}
+
+ul.link {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    font-size: 18px;
+}
+
+.header .icon {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.section1 {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    padding: 100px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.section1 .text {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 400px;
+    text-wrap: wrap;
+    gap: 10px;
+}
+
+.section1 .title {
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section1 .img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 250px;
+    background-color: #999999;
+}
+
+.section1 .register {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: fit-content;
+    height: fit-content;
+    font-weight: 900;
+    border-radius: 5px;
+}
+
+.section2 {
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.section2 .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.section2 .card-container {
+    display: flex;
+    flex-basis: 150px;
+    gap: 50px;
+    justify-content: center;
+}
+
+.section2 .card {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-wrap: wrap;
+    flex-basis: 150px;
+}
+
+.section2 .img {
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    border: #3882F6 5px solid;
+}
+
+.section3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 .quote {
+    width: 800px;
+}
+
+.section3 .content {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1F2937;
+    font-style: italic;
+}
+
+.section3 .author {
+    text-align: right;
+    font-weight: 900;
+}
+
+.section4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    font-size: 18px;
+}
+
+.section4 .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 50px;
+    width: 1200px;
+    height: 100px;
+    color: #F9FAF8;
+}
+
+.section4 .title {
+    font-size: 24px;
+    font-weight: 900;
+}
+
+.section4 .register {
+    border: #F9FAF8 2px solid;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    width: 150px;
+    height: fit-content
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color:#F9FAF8;
+}
